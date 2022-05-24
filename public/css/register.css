@@ -1,0 +1,63 @@
+main{
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+main form {
+    display: flex;
+    flex-direction:column;
+}
+
+main div strong{
+    font-size: 1.0rem;
+    display: block;
+    margin-bottom: 15px;
+}
+
+main div ul li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+.control-formulario{
+    padding: 20px 25px;
+}
+
+.control {
+    border-style: none;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.control::placeholder{
+    font-size: 0.9rem;
+}
+
+label {
+    margin: 0px 30px 0px 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button{
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #1259c3;
+    color: #fff;
+}
+
+.button:hover{
+    background-color: #0022AA;
+}
+
+
+
+
+
